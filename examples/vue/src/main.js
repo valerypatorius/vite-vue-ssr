@@ -1,7 +1,7 @@
 import './index.css'
 import App from './App.vue'
 import routes from './routes'
-import viteSSR, { ClientOnly } from 'vite-ssr'
+import viteSSR, { ClientOnly } from 'vite-vue3-ssr'
 import { createHead } from 'unhead'
 
 export default viteSSR(

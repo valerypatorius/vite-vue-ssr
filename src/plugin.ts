@@ -4,7 +4,7 @@ import type { SsrOptions } from './dev/server'
 import { createSSRDevHandler } from './dev/server'
 import { normalizePath } from 'vite'
 
-const pluginName = 'vite-ssr'
+const pluginName = 'vite-vue3-ssr'
 const entryServer = '/entry-server'
 const entryClient = '/entry-client'
 
